@@ -51,6 +51,7 @@ pip install -r requirements.txt
 ```bash
 git clone git@github.com:TYsewyn/cdct_python_consumer.git
 cd cdct_python_consumer
+./prereqs.sh
 pip install -r requirements.txt
 ./run_test.sh
 ```

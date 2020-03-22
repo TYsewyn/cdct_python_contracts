@@ -42,6 +42,7 @@ This repository demonstrates that solution.
 ```bash
 git clone git@github.com:TYsewyn/cdct_python_producer.git
 cd cdct_python_producer
+pip install -r requirements.txt
 ./run_contract_tests.sh
 ```
 
@@ -50,5 +51,6 @@ cd cdct_python_producer
 ```bash
 git clone git@github.com:TYsewyn/cdct_python_consumer.git
 cd cdct_python_consumer
+pip install -r requirements.txt
 ./run_test.sh
 ```

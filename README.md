@@ -50,5 +50,5 @@ cd cdct_python_producer
 ```bash
 git clone git@github.com:TYsewyn/cdct_python_consumer.git
 cd cdct_python_consumer
-./run_tests.sh
+./run_test.sh
 ```

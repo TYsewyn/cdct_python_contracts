@@ -7,10 +7,14 @@ Contract.make {
     label 'ping_pong'
     input {
         messageFrom('input')
-        messageBody('ping')
+        messageBody([
+            message: 'ping'
+        ])
     }
     outputMessage {
         sentTo(value(c('input'), p('output')))
-        body('pong')
+        body([
+            message: 'pong'
+        ])
     }
 }

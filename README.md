@@ -6,7 +6,7 @@ Consumer: <https://github.com/TYsewyn/cdct_python_consumer>
 
 Contracts: this repo
 
-## Why Cloud Contract instead of Pact?
+## Why not using Pact?
 
 For our usecase, we need support for messaging.
 In the consumer-driven contract testing world, the most popular solution is [Pact](https://docs.pact.io/).
@@ -28,9 +28,27 @@ https://github.com/pact-foundation/pact-python/pull/119
 
 Pactman does not currently support messaging (although they claim to support the Pact specification v3): https://github.com/reecetech/pactman/issues/68
 
-## Cloud Contract
+## Why using Cloud Contract?
 
 Cloud Contract does support messaging, and now also supports a polyglot solution:
 https://spring.io/blog/2018/02/13/spring-cloud-contract-in-a-polyglot-world
 
 This repository demonstrates that solution.
+
+## How to run
+
+### Producer
+
+```bash
+git clone git@github.com:TYsewyn/cdct_python_producer.git
+cd cdct_python_producer
+./run_contract_tests.sh
+```
+
+### Consumer
+
+```bash
+git clone git@github.com:TYsewyn/cdct_python_consumer.git
+cd cdct_python_consumer
+./run_tests.sh
+```

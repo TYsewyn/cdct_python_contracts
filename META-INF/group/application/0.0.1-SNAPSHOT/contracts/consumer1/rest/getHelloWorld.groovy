@@ -4,7 +4,7 @@ import org.springframework.cloud.contract.spec.Contract
 
 Contract.make {
     request {
-        method GOT()
+        method GET()
         url "/"
     }
 

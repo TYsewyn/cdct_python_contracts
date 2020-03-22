@@ -17,7 +17,7 @@ Pact for Python has two competing solutions:
 
 ### Pact Python
 
-Pact-python does not currently support messaging, although work in ongoing:
+Pact-python does not currently support messaging, although work is ongoing:
 https://github.com/pact-foundation/pact-python/issues/88
 
 Work has initially started, but has stalled since January (at the time of writing):

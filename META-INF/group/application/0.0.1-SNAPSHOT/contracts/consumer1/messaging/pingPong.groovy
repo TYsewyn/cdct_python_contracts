@@ -12,7 +12,7 @@ Contract.make {
         ])
     }
     outputMessage {
-        sentTo(value(c('input'), p('output')))
+        sentTo('output')
         body([
             message: 'pong'
         ])

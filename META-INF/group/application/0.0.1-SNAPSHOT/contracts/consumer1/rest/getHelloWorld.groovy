@@ -10,6 +10,6 @@ Contract.make {
 
     response {
         status 200
-        body([message : $(regex('Hello, [A-z]*!'))])
+        body([message : $(c('Hello, World!'), p(regex('Hello, [A-z]*!')))])
     }
 }
